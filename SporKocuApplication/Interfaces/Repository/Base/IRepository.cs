@@ -18,7 +18,7 @@ namespace SporKocu.Application.Interfaces.Repository.Base
         TEntity Update(TEntity entity);
         Task<TEntity> UpdateAsyc(TEntity entity);
         void Delete(TEntity entity);
-        Task<TEntity> DeleteAsyc(TEntity entity);
+        Task DeleteAsyc(TEntity entity);
 
         Task Hardelete(TEntity entity);
 
